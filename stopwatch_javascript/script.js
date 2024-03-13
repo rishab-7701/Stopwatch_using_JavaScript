@@ -85,4 +85,4 @@ function showData(){
     displayTime.innerHTML=localStorage.getItem("time");
 }
 
-showData();
+showData()
