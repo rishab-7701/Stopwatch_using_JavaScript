@@ -76,7 +76,7 @@ reset.addEventListener('click',function(){
     watchReset();
 });
 
-
+//function saveData() and showData() helps you to save and show the  data in local storage
 function saveData(){
     localStorage.setItem("time",displayTime.innerHTML);
 }
